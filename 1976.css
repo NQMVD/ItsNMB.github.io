@@ -1,0 +1,53 @@
+/*
+teal: #5DCFB8
+red: #D73811
+orange: #E16B06
+yellow: #E1BA45
+brown: #5B3217
+*/
+
+body {
+}
+
+#left-wing {
+  color: #ffffff;
+}
+
+#right-wing {
+  color: #ffffff;
+}
+
+
+#input-field {
+  background: #ffffff;
+  /* background: #E1BA45; */
+}
+
+#input-field.wrong {
+  background: #d73811;
+  color: #ffffff;
+}
+
+#redo-button {
+  background: #e16b06;
+  color: #ffffff;
+}
+
+#text-display {
+  color: #5dcfb8;
+}
+
+#footer {
+}
+
+.highlight {
+  color: #e16b06;
+}
+
+.correct {
+  color: #e1ba45;
+}
+
+.wrong {
+  color: #d73811;
+}
