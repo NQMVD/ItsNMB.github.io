@@ -1,0 +1,25 @@
+.example-image-link {
+	padding: 1px;
+	margin: 0 0.5rem 1rem 0.5rem;
+	background-color: #fff;
+	line-height: 0;
+	transition: background-color 0.1s ease-out;
+	border-radius: 6px
+}
+.example-image-link:hover {
+	background-color: #0165a3;
+/*    box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24); */
+/*    box-shadow: 0 1px 1.5px 0 #0165a3, 0 1px 1px 0 #0165a3; */ 
+
+}
+.example-image {
+	display: inline-block;
+	width:30%;
+	border-radius: 5px;
+    box-shadow: 0 1px 1.5px 0 #0165a3, 0 1px 1px 0 #0165a3; 
+}
+.image-set {
+	/* margin-bottom:26px;
+	margin-top:26px;
+	text-align:center; */
+}
