@@ -81,6 +81,14 @@ footer {
   color: #ffffff;
 }
 
+table {
+  text-align: center;
+}
+
+table td,th {
+  padding: 5px;
+}
+
 #lowheader {
   height: fit-content;
   background: #5b3217;
