@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>The Coding Hub</title>
-      <meta name="description" content="Willkommen im Coding Hub">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="icon" type="image/x-icon" href="css/code-solid.svg">
-   </head>
-   <body>
-      <div id="wrapper">
-         <header class="textshadow">The Coding Hub</header>
-         <nav>
-            <ul>
-               <li class="textshadow underline"><a href="index.html">Home</a></li>
-               <li class="textshadow">|</li>
-               <li class="textshadow"><a href="languages.html">Sprachen</a></li>
-               <li class="textshadow">|</li>
-               <li class="textshadow"><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-         </nav>
-         <main>
-            <div id="lowheader" class="clrorange boxshadow"><h1>C.H. - The Coding Hub</h1></div>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Personal Website</title>
+	<!-- Add CSS for dark mode -->
+	<link rel="stylesheet" href="styles.css">
+	<!-- Add CSS for animations -->
+	<link rel="stylesheet" href="animate.css">
+</head>
+<body>
+	<!-- Add toggle switch for dark mode -->
+	<div class="toggle">
+		<input type="checkbox" id="toggle-switch">
+		<label for="toggle-switch" class="toggle-label">
+			<span class="toggle-inner"></span>
+			<span class="toggle-switch"></span>
+		</label>
+	</div>
 
-            <div class="row">
-               <div class="collumn clryellow boxshadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam unde minima libero, assumenda quam similique ipsam repellat recusandae autem sunt vitae quia ipsa quidem impedit harum animi iure eius consectetur!</div>
-               <div class="collumn clrblue boxshadow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos commodi amet, laborum fuga perferendis porro mollitia similique optio omnis! Quo quae quas voluptate consequatur quam accusantium modi vero maxime repellendus.</div>
-            </div>
+	<!-- Add header section -->
+	<header class="header">
+		<div class="container">
+			<h1 class="heading animate__animated animate__fadeInDown">Welcome to My Website</h1>
+			<p class="subheading animate__animated animate__fadeInUp">I'm excited to share my work with you</p>
+		</div>
+	</header>
 
-            <div class="row">
-               <div class="collumn clryellow boxshadow code">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam unde minima libero, assumenda quam similique ipsam repellat recusandae autem sunt vitae quia ipsa quidem impedit harum animi iure eius consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur totam dicta possimus quisquam recusandae impedit obcaecati similique enim explicabo? Ad, totam maxime! Eaque officiis, veritatis quibusdam enim quos delectus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam unde minima libero, assumenda quam similique ipsam repellat recusandae autem sunt vitae quia ipsa quidem impedit harum animi iure eius consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur totam dicta possimus quisquam recusandae impedit obcaecati similique enim explicabo? Ad, totam maxime! Eaque officiis, veritatis quibusdam enim quos delectus!</div>
-            </div>
+	<!-- Add main section -->
+	<main class="main">
+		<div class="container">
+			<h2 class="section-heading animate__animated animate__fadeInUp">My Projects</h2>
+			<ul class="project-list">
+				<li class="project animate__animated animate__fadeInLeft">
+					<a href="#">
+						<img src="project-1.jpg" alt="Project 1">
+						<h3 class="project-title">Project 1</h3>
+						<p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
+				</li>
+				<li class="project animate__animated animate__fadeInRight">
+					<a href="#">
+						<img src="project-2.jpg" alt="Project 2">
+						<h3 class="project-title">Project 2</h3>
+						<p class="project-description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</main>
 
-            <div class="row">
-               <div class="collumn clryellow boxshadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam unde minima libero, assumenda quam similique ipsam repellat recusandae autem sunt vitae quia ipsa quidem impedit harum animi iure eius consectetur!</div>
-               <div class="collumn clrblue boxshadow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos commodi amet, laborum fuga perferendis porro mollitia similique optio omnis! Quo quae quas voluptate consequatur quam accusantium modi vero maxime repellendus.</div>
-               <div class="collumn clryellow boxshadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam unde minima libero, assumenda quam similique ipsam repellat recusandae autem sunt vitae quia ipsa quidem impedit harum animi iure eius consectetur!</div>
-            </div>
+	<!-- Add footer section -->
+	<footer class="footer">
+		<div class="container">
+			<p>&copy; 2023 My Personal Website</p>
+		</div>
+	</footer>
 
-
-         </main>
-         <footer class="textshadow">Noah Bürgler</footer>
-      </div>
-      <script src="main.js"></script>
-   </body>
+	<!-- Add JavaScript for toggle switch -->
+	<script src="app.js"></script>
+</body>
 </html>
